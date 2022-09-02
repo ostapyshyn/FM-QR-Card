@@ -5,7 +5,7 @@ import styles from './QRCard.module.scss';
 
 function QRCard() {
   return (
-    <div className={styles.container}>
+    <main className={styles.container}>
       <div className={styles.card}>
         <img src={qr} alt="qr" />
         <h1>
@@ -16,7 +16,7 @@ function QRCard() {
           Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
         </p>
       </div>
-    </div>
+    </main>
   );
 }
 

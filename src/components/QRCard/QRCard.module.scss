@@ -3,15 +3,15 @@
   justify-content: center;
   align-items: center;
   height: 100%;
-
+  margin: 20px;
   background-color: var(--light-gray);
 
   .card {
-    width: 320px;
-    height: 497px;
+    max-width: 320px;
     background-color: var(--white);
     padding: 16px 16px 40px 16px;
     border-radius: 20px;
+    box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
 
     h1 {
       margin-top: 24px;
@@ -29,7 +29,7 @@
       text-align: center;
       letter-spacing: 0.1875px;
       color: var(--grayish-blue);
-      width: 256px;
+      max-width: 256px;
       margin: 0 auto;
       margin-top: 16px;
     }
