@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+  background-color: var(--light-gray);
+
+  .card {
+    width: 320px;
+    height: 497px;
+    background-color: var(--white);
+    padding: 16px 16px 40px 16px;
+    border-radius: 20px;
+
+    h1 {
+      margin-top: 24px;
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--dark-blue);
+      text-align: center;
+      line-height: 28px;
+    }
+
+    p {
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 19px;
+      text-align: center;
+      letter-spacing: 0.1875px;
+      color: var(--grayish-blue);
+      width: 256px;
+      margin: 0 auto;
+      margin-top: 16px;
+    }
+
+    img {
+      width: 100%;
+      border-radius: 10px;
+      display: block;
+    }
+  }
+}
