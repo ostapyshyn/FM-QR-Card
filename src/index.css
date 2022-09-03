@@ -27,7 +27,7 @@ code {
 
 html,
 body,
-.App,
+main,
 #root {
   height: 100%;
 }

@@ -1,11 +1,7 @@
-import QRCard from './components/QRCard/QRCard';
+import QRCard from './components/QRCard';
 
 function App() {
-  return (
-    <div className="App">
-      <QRCard />
-    </div>
-  );
+  return <QRCard />;
 }
 
 export default App;
